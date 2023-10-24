@@ -1,0 +1,88 @@
+﻿@code{
+
+
+    [Parameter]
+    public bool Home { get; set; }
+
+    [Parameter]
+    public bool Solutions { get; set; }
+
+    [Parameter]
+    public bool Premium { get; set; }
+
+    [Parameter]
+    public string Color { get; set; } = "indigo";
+
+
+
+
+}
+
+
+<header class="">
+    <nav class="absolute z-10 w-full border-b border-black/5 dark:border-white/5 lg:border-transparent ">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+            <div class="relative flex flex-wrap items-center justify-between gap-6 py-3 md:gap-0 md:py-4 ">
+                <div class="relative z-20 flex w-full justify-between md:px-0 lg:w-max ">
+                    <a href="/#home" aria-label="logo" class="flex items-center space-x-2 ">
+                        <div aria-hidden="true" class="flex space-x-1 ">
+                            <img src="./icono.png" class="h-6 w-6"/>
+                        </div>
+                        <span class="text-2xl font-bold text-gray-900 dark:text-white ">LIN Platform</span>
+                    </a>
+
+                    <div class="relative flex max-h-10 items-center lg:hidden ">
+                        <button aria-label="humburger" id="hamburger" class="relative -mr-6 p-6 ">
+                            <div aria-hidden="true" id="line"
+                                 class="m-auto h-0.5 w-5 rounded bg-sky-900 transition duration-300 dark:bg-gray-300 ">
+                            </div>
+                            <div aria-hidden="true" id="line2"
+                                 class="m-auto mt-2 h-0.5 w-5 rounded bg-sky-900 transition duration-300 dark:bg-gray-300 ">
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div id="navLayer" aria-hidden="true"
+                     class="fixed inset-0 z-10 h-screen w-screen origin-bottom scale-y-0 bg-white/70 backdrop-blur-2xl transition duration-500 dark:bg-gray-900/70 lg:hidden ">
+                </div>
+                <div id="navlinks"
+                     class="invisible absolute top-full left-0 z-20 w-full origin-top-right translate-y-1 scale-90 flex-col flex-wrap justify-end gap-6 rounded-3xl border border-gray-100 bg-white p-8 opacity-0 shadow-2xl shadow-gray-600/10 transition-all duration-300 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none lg:visible lg:relative lg:flex lg:w-7/12 lg:translate-y-0 lg:scale-100 lg:flex-row lg:items-center lg:gap-0 lg:border-none lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none ">
+                    <div class="w-full text-gray-600 dark:text-gray-200 lg:w-auto lg:pr-4 lg:pt-0 ">
+                        <ul class="flex flex-col gap-6 tracking-wide lg:flex-row lg:gap-0 lg:text-sm ">
+                            <li class="">
+                                <a href="/"
+                                   class="hover:text-primary @(Home ? "font-bold":"") block transition dark:hover:text-white md:px-4 ">
+                                    <span class="">Inicio</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="/solutions"
+                                   class="hover:text-primary @(Solutions ? "font-bold":"") block transition dark:hover:text-white md:px-4 ">
+                                    <span class="">Soluciones</span>
+                                </a>
+                            </li>
+                           
+                            <li class="">
+                                <a href="/premium" class="flex gap-2 text-gray-700 @(Premium ? "font-bold":"") transition hover:text-primary dark:text-white dark:hover:text-white md:px-4 ">
+                                    <span class="">Premium</span>
+                                    <span class="flex rounded-full bg-@Color-500/20 px-1.5 py-0.5 text-xs tracking-wider text-@Color-700 dark:bg-white/10 dark:text-orange-300 ">
+                                        new
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-12 lg:mt-0 ">
+                        <a href="/register"
+                           class="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-@Color-500 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max ">
+                            <span class="relative text-sm font-semibold text-white ">
+                                Mi cuenta
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

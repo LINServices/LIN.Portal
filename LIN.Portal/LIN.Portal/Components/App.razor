@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="LIN.Portal.styles.css" />
+    <HeadOutlet />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="description" content="Pagina principal de LIN Platform">
+    <title>LIN Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/index.f56719e3.css">
+    <script type="module">
+        let e = !1; const s = document.querySelector("#navlinks"), l = document.querySelector("#hamburger"), t = document.querySelector("#navLayer"), i = [...s.querySelector("ul").children]; function a() { e ? (s.classList.add("!visible", "!scale-100", "!opacity-100", "!lg:translate-y-0"), l.classList.add("toggled"), t.classList.add("origin-top", "scale-y-100")) : (s.classList.remove("!visible", "!scale-100", "!opacity-100", "!lg:translate-y-0"), l.classList.remove("toggled"), t.classList.remove("origin-top", "scale-y-100")) } l.addEventListener("click", () => { e = !e, a() }); i.forEach(c => { c.addEventListener("click", () => { e = !e, a() }) });
+    </script>
+
+</head>
+
+<body>
+    <Routes />
+    <script src="_framework/blazor.web.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+﻿@page "/solutions"
+
+
+
+<LIN.Portal.Client.Components.Navbar Solutions="true" />
+
+
+<main class="space-y-40 mb-40">
+    <div class="relative" id="home">
+        <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+            <div class="blur-[106px] h-56 bg-gradient-to-br from-blue-500 to-purple-400 dark:from-blue-700"></div>
+            <div class="blur-[106px] h-32 bg-gradient-to-r from-green-400 to-indigo-300 dark:to-indigo-600"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+            <div class="relative pt-36 ml-auto">
+                <div class="lg:w-2/3 text-center mx-auto">
+                    <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
+                        Productos útiles para <span class="text-indigo-500 dark:text-white">todos</span>.
+                    </h1>
+                    <p class="mt-8 text-gray-700 dark:text-gray-300">
+                        Estos son los servicios que LIN te proporciona a ti y a tu equipo.
+                    </p>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="features">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+            <div class="md:w-2/3 lg:w-1/2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                     class="w-6 h-6 text-secondary">
+                    <path fill-rule="evenodd"
+                          d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
+                          clip-rule="evenodd"></path>
+                </svg>
+
+                <h2 class="my-8 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
+                    Productos
+                </h2>
+                <p class="text-gray-600 dark:text-gray-300">
+                    En LIN, nuestra IA está integrada de manera inteligente
+                    en todos nuestros sistemas. Esto significa que, según el
+                    contexto, puedes hacer preguntas específicas o ejecutar acciones directamente. Ya sea en
+                    inventario, chat u otras
+                    aplicaciones, nuestra IA facilita la interacción y optimiza la toma de decisiones en cada paso
+                    del camino.
+                </p>
+            </div>
+            <div class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/box.png" Nombre="Inventory" Content="Gestiona y comparte múltiples inventarios en Windows y Android, fácil y eficaz." />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/allo.png" Nombre="LIN Allo" Content="Mensajería disponible en web y Android para enviar mensajes, crear grupos y conversaciones en cualquier momento." />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/contactos.png" Nombre="Contacts" Content="Tu agendador de contactos personal y profesional para mantener tus conexiones al alcance de tu mano." />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/Cloud.png" Nombre="Cloud" Content="El servicio de almacenamiento en la nube para guardar y compartir archivos en línea." Badge="true" ColorBadge="blue" TextBadge="En desarrollo" />
+
+            </div>
+
+            <div class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/empresa.png" Nombre="LIN Organizations" Content="LIN para organizaciones y empresas" />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/music.png" Nombre="Music Studio" Content="LIN Music Studio es una aplicación que te permite editar y mejorar tus archivos de sonido de forma sencilla y creativa." Badge="true" ColorBadge="blue" TextBadge="En desarrollo" />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/panorama.png" Nombre="Panorama Studio" Content="Editor de fotografías conectado a LIN Platform" Badge="true" ColorBadge="blue" TextBadge="En desarrollo" />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/arroba.png" Nombre="Emma" Content="El asistente inteligente que esta presente en todas las apps de LIN Platform" Badge="true" ColorBadge="indigo" TextBadge="PRO" />
+
+            </div>
+
+
+            <div class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/algorithm.png" Nombre="LIN Planner" Content="Una app de gestión de tareas para organizar tu trabajo y vida diaria de manera eficiente." />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/map.png" Nombre="LIN Maps" Content="Aplicación de mapas diseñada para los desarrolladores." Badge="true" ColorBadge="gray" TextBadge="Developers" />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/shines.png" Nombre="IA Kit Studio" Content="Kit de API de inteligencia artificial de LIN Platform" Badge="true" ColorBadge="gray" TextBadge="Developers" />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/code.png" Nombre="LIN Developers" Content="Gestiona tus proyectos de APIs LIN y controla los gastos de tus apps." Badge="true" ColorBadge="gray" TextBadge="Developers" />
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+   
+</main>
+
+<div class="fixed inset-x-6 bottom-6 z-40 mx-auto w-max astro-6MYTB7CN">
+    <a href="/premium"
+       class="flex gap-3 rounded-2xl border border-yellow-900/30 bg-gradient-to-br from-white/50 to-yellow-100 p-3 shadow-2xl shadow-yellow-900/50 backdrop-blur-xl dark:border-white/10 dark:from-gray-800 dark:to-black/70 dark:shadow-primary/50 astro-6MYTB7CN">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+             class="h-5 w-5 text-yellow-600 dark:text-yellow-500 astro-6MYTB7CN">
+            <path fill-rule="evenodd"
+                  d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
+                  clip-rule="evenodd" class="astro-6MYTB7CN"></path>
+        </svg>
+        <span class="text-sm font-semibold tracking-wide text-yellow-900 dark:text-white astro-6MYTB7CN">
+            Actualizar a LIN+
+        </span>
+    </a>
+</div>

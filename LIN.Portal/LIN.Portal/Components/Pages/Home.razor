@@ -1,321 +1,312 @@
 ﻿@page "/"
-<html lang="es">
+
+<LIN.Portal.Client.Components.Navbar Home="true" />
 
 
-<body class="bg-white dark:bg-gray-900 astro-6MYTB7CN">
-
-
-   <LIN.Portal.Client.Components.Navbar Home="true" />
-
-
-    <main class="space-y-40 mb-40">
-        <div class="relative" id="home">
-            <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
-                <div class="blur-[106px] h-56 bg-gradient-to-br from-green-500 to-purple-400 dark:from-blue-700"></div>
-                <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-300 dark:to-indigo-600"></div>
-            </div>
-            <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-                <div class="relative pt-36 ml-auto">
-                    <div class="lg:w-2/3 text-center mx-auto">
-                        <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
-                            Uniendo
-                            servicios con <span class="text-indigo-500 dark:text-white">innovación</span>.
-                        </h1>
-                        <p class="mt-8 text-gray-700 dark:text-gray-300">
-                            Potencia tu negocio con LIN Platform, usando
-                            nuestras apps de inventario, mapas, chat, gestión de tareas en tiempo real. Optimiza
-                            procesos y toma decisiones basadas en datos para resultados excepcionales.
-                        </p>
-                        <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
-                            <a href="#"
-                               class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-indigo-500 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
-                                <span class="relative text-base font-semibold text-white">Iniciar ahora</span>
-                            </a>
-                            <a href="#"
-                               class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-indigo-500/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max">
-                                <span class="relative text-base font-semibold text-primary dark:text-white">
-                                    Aprender
-                                    mas
-                                </span>
-                            </a>
-                        </div>
-                        <div class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
-                            <div class="text-left">
-                                <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Precios bajos</h6>
-                                <p class="mt-2 text-gray-500">desde $0</p>
-                            </div>
-                            <div class="text-left">
-                                <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Multiplataforma</h6>
-                                <p class="mt-2 text-gray-500">Diseñadas para todo el mundo.</p>
-                            </div>
-                            <div class="text-left">
-                                <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Inteligentes</h6>
-                                <p class="mt-2 text-gray-500">Diseñadas con IA.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+<main class="space-y-40 mb-40">
+    <div class="relative" id="home">
+        <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+            <div class="blur-[106px] h-56 bg-gradient-to-br from-green-500 to-purple-400 dark:from-blue-700"></div>
+            <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-300 dark:to-indigo-600"></div>
         </div>
-
-        <div id="features">
-            <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-                <div class="md:w-2/3 lg:w-1/2">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                         class="w-6 h-6 text-secondary">
-                        <path fill-rule="evenodd"
-                              d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-                              clip-rule="evenodd"></path>
-                    </svg>
-
-                    <h2 class="my-8 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
-                        La IA transforma negocios, optimiza procesos y acelera el éxito.
-                    </h2>
-                    <p class="text-gray-600 dark:text-gray-300">
-                        En LIN, nuestra IA está integrada de manera inteligente
-                        en todos nuestros sistemas. Esto significa que, según el
-                        contexto, puedes hacer preguntas específicas o ejecutar acciones directamente. Ya sea en
-                        inventario, chat u otras
-                        aplicaciones, nuestra IA facilita la interacción y optimiza la toma de decisiones en cada paso
-                        del camino.
+        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+            <div class="relative pt-36 ml-auto">
+                <div class="lg:w-2/3 text-center mx-auto">
+                    <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
+                        Uniendo
+                        servicios con <span class="text-indigo-500 dark:text-white">innovación</span>.
+                    </h1>
+                    <p class="mt-8 text-gray-700 dark:text-gray-300">
+                        Potencia tu negocio con LIN Platform, usando
+                        nuestras apps de inventario, mapas, chat, gestión de tareas en tiempo real. Optimiza
+                        procesos y toma decisiones basadas en datos para resultados excepcionales.
                     </p>
+                    <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
+                        <a href="#"
+                           class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-indigo-500 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
+                            <span class="relative text-base font-semibold text-white">Iniciar ahora</span>
+                        </a>
+                        <a href="#"
+                           class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-indigo-500/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max">
+                            <span class="relative text-base font-semibold text-primary dark:text-white">
+                                Aprender
+                                mas
+                            </span>
+                        </a>
+                    </div>
+                    <div class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
+                        <div class="text-left">
+                            <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Precios bajos</h6>
+                            <p class="mt-2 text-gray-500">desde $0</p>
+                        </div>
+                        <div class="text-left">
+                            <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Multiplataforma</h6>
+                            <p class="mt-2 text-gray-500">Diseñadas para todo el mundo.</p>
+                        </div>
+                        <div class="text-left">
+                            <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Inteligentes</h6>
+                            <p class="mt-2 text-gray-500">Diseñadas con IA.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
-                  
-                    <LIN.Portal.Components.Shared.Product Picture="./img/box.png" Nombre="Inventory" Content="Gestiona y comparte múltiples inventarios en Windows y Android, fácil y eficaz." />
 
-                    <LIN.Portal.Components.Shared.Product Picture="./img/allo.png" Nombre="LIN Allo" Content="Mensajería disponible en web y Android para enviar mensajes, crear grupos y conversaciones en cualquier momento." />
-
-                    <LIN.Portal.Components.Shared.Product Picture="./img/contactos.png" Nombre="Contacts" Content="Tu agendador de contactos personal y profesional para mantener tus conexiones al alcance de tu mano." />
-
-                    <LIN.Portal.Components.Shared.Product Picture="./img/apps.png" Nombre="Mas" Content="Mira los otros 20 servicios que tenemos disponibles para ti." />
-
-                </div>
             </div>
         </div>
-
-        <div id="solution">
-            <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-               
-                <div class="space-y-6 justify-between text-gray-600 md:flex flex-row-reverse md:gap-6 md:space-y-0 lg:gap-12 lg:items-center">
-                    <div class="md:5/12 lg:w-1/2">
-
-
-                        <div class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
-                            <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800">
-                                <img src="./img/orgsScreen.png" class="h-[156px] md:h-[278px] w-full rounded-xl" alt="">
-                            </div>
-                        </div>
-                        <div class="relative mx-auto bg-gray-900 dark:bg-gray-700 rounded-b-xl rounded-t-sm h-[17px] max-w-[351px] md:h-[21px] md:max-w-[597px]">
-                            <div class="absolute left-1/2 top-0 -translate-x-1/2 rounded-b-xl w-[56px] h-[5px] md:w-[96px] md:h-[8px] bg-gray-800"></div>
-                        </div>
-
-                    </div>
-                    <div class="md:7/12 lg:w-1/2">
-                        <h2 class="text-3xl mt-1 font-bold text-gray-900 md:text-4xl dark:text-white">
-                            LIN para <span class="text-indigo-500">Organizaciones</span>
-                        </h2>
-                        <p class="my-8 text-gray-600 dark:text-gray-300">
-                            LIN Organizations es una plataforma versátil y poderosa que simplifica la gestión
-                            empresarial al permitir a los
-                            administradores tener un control total sobre las cuentas de usuario, licencias y otros
-                            aspectos críticos de la
-                            organización.<br><br> Con un enfoque en la eficiencia y la seguridad, LIN Organizations
-                            ofrece a las empresas la capacidad de
-                            escalar y adaptarse a medida que crecen, mejorando la colaboración interna y manteniendo un
-                            alto nivel de control sobre
-                            los recursos.
-                        </p>
-                        <div class="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
-                            <div class="mt-8 flex gap-4 md:items-center">
-                                <div class="w-12 h-12 flex gap-4 justify-center items-center rounded-full bg-indigo-100 dark:bg-indigo-900/20">
-                                    <img src="./img/allo.png" class="h-6 w-6" />
-                                </div>
-                                <div class="w-5/6">
-                                    <h3 class="font-semibold text-lg text-gray-700 dark:text-indigo-300">
-                                        LIN Allo
-                                    </h3>
-                                    <p class="text-gray-500 dark:text-gray-400">
-                                        Comunicación adaptada a las empresas
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="pt-4 flex gap-4 md:items-center">
-                                <div class="w-12 h-12 flex gap-4 rounded-full bg-teal-100 dark:bg-teal-900/20">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                         class="w-6 h-6 m-auto text-teal-600 dark:text-teal-400">
-                                        <path fill-rule="evenodd"
-                                              d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
-                                              clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div class="w-5/6">
-                                    <h3 class="font-semibold text-lg text-gray-700 dark:text-teal-300">
-                                        Localización en
-                                        tiempo real
-                                    </h3>
-                                    <p class="text-gray-500 dark:text-gray-400">
-                                        Gestion de dispositivos en tiempo real.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="pt-4 flex gap-4 md:items-center">
-                                <div class="w-12 h-12 flex gap-4 rounded-full bg-teal-100 dark:bg-teal-900/20">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                         class="w-6 h-6 m-auto text-teal-600 dark:text-teal-400">
-                                        <path fill-rule="evenodd"
-                                              d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
-                                              clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div class="w-5/6">
-                                    <h3 class="font-semibold text-lg text-gray-700 dark:text-teal-300">Gestion de usuarios</h3>
-                                    <p class="text-gray-500 dark:text-gray-400">
-                                        Gestiona los aliados de tu organización
-                                    </p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="relative py-16">
-            <div aria-hidden="true"
-                 class="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
-                <div class="blur-[106px] h-56 bg-gradient-to-br from-indigo-500 to-purple-400 dark:from-blue-700"></div>
-                <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
-            </div>
-            <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-                <div class="relative">
-                    <div class="flex items-center justify-center -space-x-2">
-                        <img loading="lazy" width="400" height="400" src="./avatars/avatar.webp"
-                             alt="member photo" class="h-8 w-8 rounded-full object-cover">
-                        <img loading="lazy" width="200" height="200" src="./avatars/avatar-2.webp"
-                             alt="member photo" class="h-12 w-12 rounded-full object-cover">
-                        <img loading="lazy" width="200" height="200" src="./avatars/avatar-3.webp"
-                             alt="member photo" class="z-10 h-16 w-16 rounded-full object-cover">
-                        <img loading="lazy" width="200" height="200" src="./avatars/avatar-4.webp"
-                             alt="member photo" class="relative h-12 w-12 rounded-full object-cover">
-                        <img loading="lazy" width="200" height="200" src="./avatars/avatar-1.webp"
-                             alt="member photo" class="h-8 w-8 rounded-full object-cover">
-                    </div>
-                    <div class="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
-                        <h1 class="text-center text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
-                            Iniciar ahora
-                        </h1>
-                        <p class="text-center text-xl text-gray-600 dark:text-gray-300">
-                            Únete a la comunidad de LIN
-                        </p>
-                        <div class="flex flex-wrap justify-center gap-6">
-                            <a href="#"
-                               class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-indigo-500 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
-                                <span class="relative text-base font-semibold text-white dark:text-dark">
-                                    Iniciar Sesión
-                                </span>
-                            </a>
-                            <a href="#"
-                               class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-indigo-500/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max">
-                                <span class="relative text-base font-semibold text-primary dark:text-white">
-                                    Mas información
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="blog">
-            <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-                <div class="mb-12 space-y-2 text-center">
-                    <h2 class="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">Latest Articles</h2>
-                    <p class="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
-                        Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia
-                        aliquid explicabo? Excepturi, voluptate?
-                    </p>
-                </div>
-                <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                    <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-                        <div class="relative overflow-hidden rounded-xl">
-                            <img src="https://images.unsplash.com/photo-1661749711934-492cd19a25c3?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1674&amp;q=80"
-                                 alt="art cover" loading="lazy" width="1000" height="667"
-                                 class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105">
-                        </div>
-                        <div class="mt-6 relative">
-                            <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
-                                De fuga fugiat lorem ispum laboriosam expedita.
-                            </h3>
-                            <p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
-                                Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
-                            </p>
-                            <a class="inline-block" href="#">
-                                <span class="text-info dark:text-blue-300">Read more</span>
-                            </a>
-                        </div>
-
-                    </div>
-                    <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-                        <div class="relative overflow-hidden rounded-xl">
-                            <img src="https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1674&amp;q=80"
-                                 alt="art cover" loading="lazy" width="1000" height="667"
-                                 class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105">
-                        </div>
-                        <div class="mt-6 relative">
-                            <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
-                                De fuga fugiat lorem ispum laboriosam expedita.
-                            </h3>
-                            <p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
-                                Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
-                            </p>
-                            <a class="inline-block" href="#">
-                                <span class="text-info dark:text-blue-300">Read more</span>
-                            </a>
-                        </div>
-
-                    </div>
-                    <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-                        <div class="relative overflow-hidden rounded-xl">
-                            <img src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2832&amp;q=80"
-                                 alt="art cover" loading="lazy" width="1000" height="667"
-                                 class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105">
-                        </div>
-                        <div class="mt-6 relative">
-                            <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
-                                De fuga fugiat lorem ispum laboriosam expedita.
-                            </h3>
-                            <p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
-                                Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
-                            </p>
-                            <a class="inline-block" href="#">
-                                <span class="text-info dark:text-blue-300">Read more</span>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <div class="fixed inset-x-6 bottom-6 z-40 mx-auto w-max astro-6MYTB7CN">
-        <a href="/premium"
-           class="flex gap-3 rounded-2xl border border-yellow-900/30 bg-gradient-to-br from-white/50 to-yellow-100 p-3 shadow-2xl shadow-yellow-900/50 backdrop-blur-xl dark:border-white/10 dark:from-gray-800 dark:to-black/70 dark:shadow-primary/50 astro-6MYTB7CN">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                 class="h-5 w-5 text-yellow-600 dark:text-yellow-500 astro-6MYTB7CN">
-                <path fill-rule="evenodd"
-                      d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-                      clip-rule="evenodd" class="astro-6MYTB7CN"></path>
-            </svg>
-            <span class="text-sm font-semibold tracking-wide text-yellow-900 dark:text-white astro-6MYTB7CN">
-                Actualizar a LIN+
-            </span>
-        </a>
     </div>
 
-</body>
+    <div id="features">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+            <div class="md:w-2/3 lg:w-1/2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                     class="w-6 h-6 text-secondary">
+                    <path fill-rule="evenodd"
+                          d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
+                          clip-rule="evenodd"></path>
+                </svg>
 
-</html>
+                <h2 class="my-8 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
+                    La IA transforma negocios, optimiza procesos y acelera el éxito.
+                </h2>
+                <p class="text-gray-600 dark:text-gray-300">
+                    En LIN, nuestra IA está integrada de manera inteligente
+                    en todos nuestros sistemas. Esto significa que, según el
+                    contexto, puedes hacer preguntas específicas o ejecutar acciones directamente. Ya sea en
+                    inventario, chat u otras
+                    aplicaciones, nuestra IA facilita la interacción y optimiza la toma de decisiones en cada paso
+                    del camino.
+                </p>
+            </div>
+            <div class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/box.png" Nombre="Inventory" Content="Gestiona y comparte múltiples inventarios en Windows y Android, fácil y eficaz." />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/allo.png" Nombre="LIN Allo" Content="Mensajería disponible en web y Android para enviar mensajes, crear grupos y conversaciones en cualquier momento." />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/contactos.png" Nombre="Contacts" Content="Tu agendador de contactos personal y profesional para mantener tus conexiones al alcance de tu mano." />
+
+                <LIN.Portal.Components.Shared.Product Picture="./img/apps.png" Nombre="Mas" Content="Mira los otros 20 servicios que tenemos disponibles para ti." />
+
+            </div>
+        </div>
+    </div>
+
+    <div id="solution">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+
+            <div class="space-y-6 justify-between text-gray-600 md:flex flex-row-reverse md:gap-6 md:space-y-0 lg:gap-12 lg:items-center">
+                <div class="md:5/12 lg:w-1/2">
+
+
+                    <div class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
+                        <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800">
+                            <img src="./img/orgsScreen.png" class="h-[156px] md:h-[278px] w-full rounded-xl" alt="">
+                        </div>
+                    </div>
+                    <div class="relative mx-auto bg-gray-900 dark:bg-gray-700 rounded-b-xl rounded-t-sm h-[17px] max-w-[351px] md:h-[21px] md:max-w-[597px]">
+                        <div class="absolute left-1/2 top-0 -translate-x-1/2 rounded-b-xl w-[56px] h-[5px] md:w-[96px] md:h-[8px] bg-gray-800"></div>
+                    </div>
+
+                </div>
+                <div class="md:7/12 lg:w-1/2">
+                    <h2 class="text-3xl mt-1 font-bold text-gray-900 md:text-4xl dark:text-white">
+                        LIN para <span class="text-indigo-500">Organizaciones</span>
+                    </h2>
+                    <p class="my-8 text-gray-600 dark:text-gray-300">
+                        LIN Organizations es una plataforma versátil y poderosa que simplifica la gestión
+                        empresarial al permitir a los
+                        administradores tener un control total sobre las cuentas de usuario, licencias y otros
+                        aspectos críticos de la
+                        organización.<br><br> Con un enfoque en la eficiencia y la seguridad, LIN Organizations
+                        ofrece a las empresas la capacidad de
+                        escalar y adaptarse a medida que crecen, mejorando la colaboración interna y manteniendo un
+                        alto nivel de control sobre
+                        los recursos.
+                    </p>
+                    <div class="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
+                        <div class="mt-8 flex gap-4 md:items-center">
+                            <div class="w-12 h-12 flex gap-4 justify-center items-center rounded-full bg-indigo-100 dark:bg-indigo-900/20">
+                                <img src="./img/allo.png" class="h-6 w-6" />
+                            </div>
+                            <div class="w-5/6">
+                                <h3 class="font-semibold text-lg text-gray-700 dark:text-indigo-300">
+                                    LIN Allo
+                                </h3>
+                                <p class="text-gray-500 dark:text-gray-400">
+                                    Comunicación adaptada a las empresas
+                                </p>
+                            </div>
+                        </div>
+                        <div class="pt-4 flex gap-4 md:items-center">
+                            <div class="w-12 h-12 flex gap-4 rounded-full bg-teal-100 dark:bg-teal-900/20">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                     class="w-6 h-6 m-auto text-teal-600 dark:text-teal-400">
+                                    <path fill-rule="evenodd"
+                                          d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                                          clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div class="w-5/6">
+                                <h3 class="font-semibold text-lg text-gray-700 dark:text-teal-300">
+                                    Localización en
+                                    tiempo real
+                                </h3>
+                                <p class="text-gray-500 dark:text-gray-400">
+                                    Gestion de dispositivos en tiempo real.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 flex gap-4 md:items-center">
+                            <div class="w-12 h-12 flex gap-4 rounded-full bg-teal-100 dark:bg-teal-900/20">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                     class="w-6 h-6 m-auto text-teal-600 dark:text-teal-400">
+                                    <path fill-rule="evenodd"
+                                          d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                                          clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div class="w-5/6">
+                                <h3 class="font-semibold text-lg text-gray-700 dark:text-teal-300">Gestion de usuarios</h3>
+                                <p class="text-gray-500 dark:text-gray-400">
+                                    Gestiona los aliados de tu organización
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative py-16">
+        <div aria-hidden="true"
+             class="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+            <div class="blur-[106px] h-56 bg-gradient-to-br from-indigo-500 to-purple-400 dark:from-blue-700"></div>
+            <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+            <div class="relative">
+                <div class="flex items-center justify-center -space-x-2">
+                    <img loading="lazy" width="400" height="400" src="./avatars/avatar.webp"
+                         alt="member photo" class="h-8 w-8 rounded-full object-cover">
+                    <img loading="lazy" width="200" height="200" src="./avatars/avatar-2.webp"
+                         alt="member photo" class="h-12 w-12 rounded-full object-cover">
+                    <img loading="lazy" width="200" height="200" src="./avatars/avatar-3.webp"
+                         alt="member photo" class="z-10 h-16 w-16 rounded-full object-cover">
+                    <img loading="lazy" width="200" height="200" src="./avatars/avatar-4.webp"
+                         alt="member photo" class="relative h-12 w-12 rounded-full object-cover">
+                    <img loading="lazy" width="200" height="200" src="./avatars/avatar-1.webp"
+                         alt="member photo" class="h-8 w-8 rounded-full object-cover">
+                </div>
+                <div class="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
+                    <h1 class="text-center text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
+                        Iniciar ahora
+                    </h1>
+                    <p class="text-center text-xl text-gray-600 dark:text-gray-300">
+                        Únete a la comunidad de LIN
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-6">
+                        <a href="#"
+                           class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-indigo-500 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
+                            <span class="relative text-base font-semibold text-white dark:text-dark">
+                                Iniciar Sesión
+                            </span>
+                        </a>
+                        <a href="#"
+                           class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-indigo-500/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max">
+                            <span class="relative text-base font-semibold text-primary dark:text-white">
+                                Mas información
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="blog">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+            <div class="mb-12 space-y-2 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">Latest Articles</h2>
+                <p class="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
+                    Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia
+                    aliquid explicabo? Excepturi, voluptate?
+                </p>
+            </div>
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
+                    <div class="relative overflow-hidden rounded-xl">
+                        <img src="https://images.unsplash.com/photo-1661749711934-492cd19a25c3?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1674&amp;q=80"
+                             alt="art cover" loading="lazy" width="1000" height="667"
+                             class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="mt-6 relative">
+                        <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
+                            De fuga fugiat lorem ispum laboriosam expedita.
+                        </h3>
+                        <p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
+                            Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
+                        </p>
+                        <a class="inline-block" href="#">
+                            <span class="text-info dark:text-blue-300">Read more</span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
+                    <div class="relative overflow-hidden rounded-xl">
+                        <img src="https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1674&amp;q=80"
+                             alt="art cover" loading="lazy" width="1000" height="667"
+                             class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="mt-6 relative">
+                        <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
+                            De fuga fugiat lorem ispum laboriosam expedita.
+                        </h3>
+                        <p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
+                            Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
+                        </p>
+                        <a class="inline-block" href="#">
+                            <span class="text-info dark:text-blue-300">Read more</span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
+                    <div class="relative overflow-hidden rounded-xl">
+                        <img src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2832&amp;q=80"
+                             alt="art cover" loading="lazy" width="1000" height="667"
+                             class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="mt-6 relative">
+                        <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
+                            De fuga fugiat lorem ispum laboriosam expedita.
+                        </h3>
+                        <p class="mt-6 mb-8 text-gray-600 dark:text-gray-300">
+                            Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
+                        </p>
+                        <a class="inline-block" href="#">
+                            <span class="text-info dark:text-blue-300">Read more</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="fixed inset-x-6 bottom-6 z-40 mx-auto w-max astro-6MYTB7CN">
+    <a href="/premium"
+       class="flex gap-3 rounded-2xl border border-yellow-900/30 bg-gradient-to-br from-white/50 to-yellow-100 p-3 shadow-2xl shadow-yellow-900/50 backdrop-blur-xl dark:border-white/10 dark:from-gray-800 dark:to-black/70 dark:shadow-primary/50 astro-6MYTB7CN">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+             class="h-5 w-5 text-yellow-600 dark:text-yellow-500 astro-6MYTB7CN">
+            <path fill-rule="evenodd"
+                  d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
+                  clip-rule="evenodd" class="astro-6MYTB7CN"></path>
+        </svg>
+        <span class="text-sm font-semibold tracking-wide text-yellow-900 dark:text-white astro-6MYTB7CN">
+            Actualizar a LIN+
+        </span>
+    </a>
+</div>

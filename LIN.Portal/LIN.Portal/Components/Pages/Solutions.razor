@@ -1,6 +1,6 @@
 ﻿@page "/solutions"
 
-
+@using LIN.Portal.Client.Components
 
 <LIN.Portal.Client.Components.Navbar Solutions="true" />
 
@@ -52,38 +52,38 @@
             </div>
             <div class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/box.png" Nombre="Inventory" Content="Gestiona y comparte múltiples inventarios en Windows y Android, fácil y eficaz." />
+                <Product GoTo="/about/inventory" Picture="./img/box.png" Nombre="Inventory" Content="Gestiona y comparte múltiples inventarios en Windows y Android, fácil y eficaz." />
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/allo.png" Nombre="LIN Allo" Content="Mensajería disponible en web y Android para enviar mensajes, crear grupos y conversaciones en cualquier momento." />
+                <Product Picture="./img/allo.png" Nombre="LIN Allo" Content="Mensajería disponible en web y Android para enviar mensajes, crear grupos y conversaciones en cualquier momento." />
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/contactos.png" Nombre="Contacts" Content="Tu agendador de contactos personal y profesional para mantener tus conexiones al alcance de tu mano." />
+                <Product Picture="./img/contactos.png" Nombre="Contacts" Content="Tu agendador de contactos personal y profesional para mantener tus conexiones al alcance de tu mano." />
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/Cloud.png" Nombre="Cloud" Content="El servicio de almacenamiento en la nube para guardar y compartir archivos en línea." Badge="true" ColorBadge="blue" TextBadge="En desarrollo" />
+                <Product Picture="./img/Cloud.png" Nombre="Cloud" Content="El servicio de almacenamiento en la nube para guardar y compartir archivos en línea." Badge="true" ColorBadge="blue" TextBadge="En desarrollo" />
 
             </div>
 
             <div class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/empresa.png" Nombre="LIN Organizations" Content="LIN para organizaciones y empresas" />
+                <Product Picture="./img/empresa.png" Nombre="LIN Organizations" Content="LIN para organizaciones y empresas" />
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/music.png" Nombre="Music Studio" Content="LIN Music Studio es una aplicación que te permite editar y mejorar tus archivos de sonido de forma sencilla y creativa." Badge="true" ColorBadge="blue" TextBadge="En desarrollo" />
+                <Product Picture="./img/music.png" Nombre="Music Studio" Content="LIN Music Studio es una aplicación que te permite editar y mejorar tus archivos de sonido de forma sencilla y creativa." Badge="true" ColorBadge="blue" TextBadge="En desarrollo" />
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/panorama.png" Nombre="Panorama Studio" Content="Editor de fotografías conectado a LIN Platform" Badge="true" ColorBadge="blue" TextBadge="En desarrollo" />
+                <Product Picture="./img/panorama.png" Nombre="Panorama Studio" Content="Editor de fotografías conectado a LIN Platform" Badge="true" ColorBadge="blue" TextBadge="En desarrollo" />
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/arroba.png" Nombre="Emma" Content="El asistente inteligente que esta presente en todas las apps de LIN Platform" Badge="true" ColorBadge="indigo" TextBadge="PRO" />
+                <Product GoTo="/about/emma" Picture="./img/arroba.png" Nombre="Emma" Content="El asistente inteligente que esta presente en todas las apps de LIN Platform" Badge="true" ColorBadge="indigo" TextBadge="PRO" />
 
             </div>
 
 
             <div class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/algorithm.png" Nombre="LIN Planner" Content="Una app de gestión de tareas para organizar tu trabajo y vida diaria de manera eficiente." />
+                <Product Picture="./img/algorithm.png" Nombre="LIN Planner" Content="Una app de gestión de tareas para organizar tu trabajo y vida diaria de manera eficiente." />
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/map.png" Nombre="LIN Maps" Content="Aplicación de mapas diseñada para los desarrolladores." Badge="true" ColorBadge="gray" TextBadge="Developers" />
+                <Product GoTo="/about/Mapas" Picture="./img/map.png" Nombre="LIN Maps" Content="Aplicación de mapas diseñada para los desarrolladores." Badge="true" ColorBadge="gray" TextBadge="Developers" />
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/shines.png" Nombre="IA Kit Studio" Content="Kit de API de inteligencia artificial de LIN Platform" Badge="true" ColorBadge="gray" TextBadge="Developers" />
+                <Product Picture="./img/shines.png" Nombre="IA Kit Studio" Content="Kit de API de inteligencia artificial de LIN Platform" Badge="true" ColorBadge="gray" TextBadge="Developers" />
 
-                <LIN.Portal.Components.Shared.Product Picture="./img/code.png" Nombre="LIN Developers" Content="Gestiona tus proyectos de APIs LIN y controla los gastos de tus apps." Badge="true" ColorBadge="gray" TextBadge="Developers" />
+                <Product Picture="./img/code.png" Nombre="LIN Developers" Content="Gestiona tus proyectos de APIs LIN y controla los gastos de tus apps." Badge="true" ColorBadge="gray" TextBadge="Developers" />
 
             </div>
 

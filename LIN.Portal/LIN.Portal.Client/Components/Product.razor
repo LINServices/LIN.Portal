@@ -9,6 +9,10 @@
 
 
     [Parameter]
+    public string GoTo { get; set; } = "/";
+
+
+    [Parameter]
     public string Picture { get; set; }
 
 
@@ -23,6 +27,8 @@
 
 
 }
+@rendermode RenderMode.InteractiveWebAssembly
+@inject NavigationManager nav
 
 
 <div class="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
@@ -47,7 +53,7 @@
                 @Content
             </p>
         </div>
-        <a href="#" class="flex items-center justify-between group-hover:text-secondary">
+        <a @onclick="()=>nav.NavigateTo(GoTo, true)" class="flex items-center justify-between group-hover:text-secondary">
             <span class="text-sm">Ver mas información.</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                  class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">

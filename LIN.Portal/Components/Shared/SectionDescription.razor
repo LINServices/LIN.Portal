@@ -1,0 +1,18 @@
+﻿@code{
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    [Parameter]
+    public string Tittle { get; set; }
+
+}
+
+<section class="mt-10">
+
+    <h2 class="text-3xl font-bold">@Tittle</h2>
+    <div class="">
+        @ChildContent
+    </div>
+
+</section>

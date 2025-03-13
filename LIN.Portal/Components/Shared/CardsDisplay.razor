@@ -1,0 +1,10 @@
+﻿@code {
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+}
+
+<div class="mt-7 gap-3 mx-auto grid max-w-2xl grid-cols-1 lg:max-w-none lg:grid-cols-2">
+    @ChildContent
+</div>

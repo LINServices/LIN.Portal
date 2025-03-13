@@ -3,7 +3,7 @@
 <Navbar Home="true" />
 
 
-<main class="space-y-40 mb-40">
+<main class="space-y-40 mb-40 dark:text-zinc-400">
     <div class="relative" id="home">
         <div aria-hidden="true" class="inset-0 -space-x-52 absolute grid grid-cols-2 opacity-40">
             <div class="h-56 from-green-500 to-purple-400 bg-gradient-to-br blur-[106px]"></div>
@@ -12,7 +12,7 @@
         <div class="px-6 mx-auto max-w-7xl md:px-12 xl:px-6">
             <div class="pt-36 relative ml-auto">
                 <div class="mx-auto text-center lg:w-2/3">
-                    <h1 class="text-gray-900 text-5xl font-bold md:text-6xl xl:text-7xl">
+                    <h1 class="text-gray-900 text-5xl font-bold dark:text-zinc-400 md:text-6xl xl:text-7xl">
                         Uniendo
                         servicios con <span class="text-indigo-500">innovación</span>.
                     </h1>
@@ -77,13 +77,13 @@
             </div>
             <div class="mt-16 divide-gray-100 border-gray-100 text-gray-600 grid divide-x divide-y overflow-hidden rounded-3xl border sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
 
-                <LIN.Portal.Client.Components.Product Picture="./img/box.png" Nombre="Inventory" Content="Gestiona y comparte múltiples inventarios en Windows y Android, fácil y eficaz." />
+                <Product Picture="./img/box.png" Nombre="Inventory" Content="Gestiona y comparte múltiples inventarios en Windows y Android, fácil y eficaz." />
 
-                <LIN.Portal.Client.Components.Product Picture="./img/allo.png" Nombre="LIN Allo" Content="Mensajería disponible en web, Windows y Android para enviar mensajes, crear grupos y conversaciones en cualquier momento." />
+                <Product Picture="./img/allo.png" Nombre="LIN Allo" Content="Mensajería disponible en web, Windows y Android para enviar mensajes, crear grupos y conversaciones en cualquier momento." />
 
-                <LIN.Portal.Client.Components.Product Picture="./img/contactos.png" Nombre="Contacts" Content="Tu agendador de contactos personal y profesional para mantener tus conexiones al alcance de tu mano." />
+                <Product Picture="./img/contactos.png" Nombre="Contacts" Content="Tu agendador de contactos personal y profesional para mantener tus conexiones al alcance de tu mano." />
 
-                <LIN.Portal.Client.Components.Product Picture="./img/apps.png" Nombre="Mas" Content="Mira los otros 20 servicios que tenemos disponibles para ti." />
+                <Product Picture="./img/apps.png" Nombre="Mas" Content="Mira los otros 20 servicios que tenemos disponibles para ti." />
 
             </div>
         </div>
@@ -111,11 +111,11 @@
                         LIN para <span class="text-indigo-500">Organizaciones</span>
                     </h2>
                     <p class="my-8 text-gray-600">
-                        LIN Organizations es una plataforma versátil y poderosa que simplifica la gestión
+                        LIN Human Directory es una plataforma versátil y poderosa que simplifica la gestión
                         empresarial al permitir a los
                         administradores tener un control total sobre las cuentas de usuario, licencias y otros
                         aspectos críticos de la
-                        organización.<br><br> Con un enfoque en la eficiencia y la seguridad, LIN Organizations
+                        organización.<br><br> Con un enfoque en la eficiencia y la seguridad, LIN Human Directory
                         ofrece a las empresas la capacidad de
                         escalar y adaptarse a medida que crecen, mejorando la colaboración interna y manteniendo un
                         alto nivel de control sobre
@@ -136,26 +136,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="pt-4 gap-4 flex md:items-center">
-                            <div class="w-12 h-12 gap-4 bg-teal-100 flex rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                     class="w-6 h-6 text-teal-600 m-auto">
-                                    <path fill-rule="evenodd"
-                                          d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
-                                          clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <div class="w-5/6">
-                                <h3 class="text-gray-700 text-lg font-semibold">
-                                    Localización en
-                                    tiempo real
-                                </h3>
-                                <p class="text-gray-500">
-                                    Gestion de dispositivos en tiempo real.
-                                </p>
-                            </div>
-                        </div>
-
+                       
                     </div>
                 </div>
             </div>
@@ -175,7 +156,7 @@
                          alt="member photo" class="h-8 w-8 rounded-full object-cover">
                     <img loading="lazy" width="200" height="200" src="./avatars/avatar-2.webp"
                          alt="member photo" class="h-12 w-12 rounded-full object-cover">
-                    <img loading="lazy" width="200" height="200" src="./avatars/avatar-3.webp"
+                    <img loading="lazy" width="200" height="200" src="https://cdn.pixabay.com/photo/2017/04/04/17/55/people-2202472_1280.jpg"
                          alt="member photo" class="h-16 w-16 z-10 rounded-full object-cover">
                     <img loading="lazy" width="200" height="200" src="./avatars/avatar-4.webp"
                          alt="member photo" class="h-12 w-12 relative rounded-full object-cover">
@@ -218,57 +199,57 @@
             <div class="gap-8 grid md:grid-cols-2 lg:grid-cols-3">
                 <div class="p-6 bg-white border-gray-100 shadow-gray-600/10 group rounded-3xl border bg-opacity-50 shadow-2xl sm:p-8">
                     <div class="relative overflow-hidden rounded-xl">
-                        <img src="https://images.unsplash.com/photo-1661749711934-492cd19a25c3?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1674&amp;q=80"
+                        <img src="https://cdn.pixabay.com/photo/2020/05/22/12/34/aerial-5205254_1280.jpg"
                              alt="art cover" loading="lazy" width="1000" height="667"
                              class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105">
                     </div>
                     <div class="mt-6 relative">
                         <h3 class="text-gray-800 text-2xl font-semibold">
-                            De fuga fugiat lorem ispum laboriosam expedita.
+                            LIN Cloud para desarrolladores
                         </h3>
                         <p class="mt-6 mb-8 text-gray-600">
-                            Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
+                            Descubre como Cloud para desarrolladores permite crear soluciones eficientes...
                         </p>
                         <a class="inline-block" href="#">
-                            <span class="text-info">Read more</span>
+                            <span class="text-info">Leer mas</span>
                         </a>
                     </div>
 
                 </div>
                 <div class="p-6 bg-white border-gray-100 shadow-gray-600/10 group rounded-3xl border bg-opacity-50 shadow-2xl sm:p-8">
                     <div class="relative overflow-hidden rounded-xl">
-                        <img src="https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1674&amp;q=80"
+                        <img src="https://cdn.pixabay.com/photo/2016/12/28/23/13/mail-box-1937391_1280.jpg"
                              alt="art cover" loading="lazy" width="1000" height="667"
                              class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105">
                     </div>
                     <div class="mt-6 relative">
                         <h3 class="text-gray-800 text-2xl font-semibold">
-                            De fuga fugiat lorem ispum laboriosam expedita.
+                            LIN Mail App
                         </h3>
                         <p class="mt-6 mb-8 text-gray-600">
-                            Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
+                            Prueba la nueva aplicación de LIN Mail disponible para la web.
                         </p>
                         <a class="inline-block" href="#">
-                            <span class="text-info">Read more</span>
+                            <span class="text-info">Leer mas</span>
                         </a>
                     </div>
 
                 </div>
                 <div class="p-6 bg-white border-gray-100 shadow-gray-600/10 group rounded-3xl border bg-opacity-50 shadow-2xl sm:p-8">
                     <div class="relative overflow-hidden rounded-xl">
-                        <img src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2832&amp;q=80"
+                        <img src="https://cdn.pixabay.com/photo/2018/06/10/17/39/market-3466906_1280.jpg"
                              alt="art cover" loading="lazy" width="1000" height="667"
                              class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105">
                     </div>
                     <div class="mt-6 relative">
                         <h3 class="text-gray-800 text-2xl font-semibold">
-                            De fuga fugiat lorem ispum laboriosam expedita.
+                            Pagos en línea con Mercado Pago y LIN Cloud Payments
                         </h3>
                         <p class="mt-6 mb-8 text-gray-600">
-                            Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
+                            Como integrar recaudación electronica con LIN Payments y Mercado Pago...
                         </p>
                         <a class="inline-block" href="#">
-                            <span class="text-info">Read more</span>
+                            <span class="text-info">Leer mas</span>
                         </a>
                     </div>
 

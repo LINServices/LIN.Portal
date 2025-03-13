@@ -1,0 +1,61 @@
+﻿@page "/about/payments"
+
+<Navbar Solutions="true" Color="sky" />
+
+<main class="mb-40">
+
+    @* Header *@
+    <HeaderDescription Tittle="LIN "
+                       SubTittle="Integración para pagos en línea"
+                       DefaultColor="sky"
+                       SecondColor="blue"
+                       Picture="./img/wallet.png"
+                       Application="Payments" />
+
+    @* Body *@
+    <BodyDescription>
+
+        @* Descripción *@
+        <p class="text-center text-lg">
+            LIN Payments es la solución perfecta para gestionar pagos en línea de manera rápida,
+            segura y sin complicaciones. Con una integración directa con Mercado Pago, permite a
+            los usuarios de LIN Inventory generar enlaces de pago, recibir pagos en tiempo real
+            y sincronizar automáticamente el estado de las transacciones.
+        </p>
+
+        @* Tarjetas *@
+        <CardsDisplay>
+
+            <MiniCard Color="sky"
+                      Tittle="Integración"
+                      Description="Fácil de integrar y manejar." />
+
+            <MiniCard Color="sky"
+                      Tittle="Seguridad"
+                      Description="Todos tus datos bancarios protegidos y seguros." />
+
+        </CardsDisplay>
+
+        @* Descripción de integración *@
+        <SectionDescription Tittle="Integración">
+
+            <IntegrationItem Tittle="Mercado Pago"
+                             Description="Uso de la tecnología y seguridad de Mercado Pago."
+                             Picture="./img/mercadoPago.png"
+                             Background="bg-indigo-100" />
+
+            <IntegrationItem Tittle="LIN Inventory"
+                             Description="Sincroniza tus ventas y asócialos a ventas enlaces de pago."
+                             Picture="./img/box.png"
+                             Background="bg-[#cddfbf]" />
+
+            <IntegrationItem Tittle="LIN Cloud Developers"
+                             Description="Implementa LIN Payments en tus aplicaciones."
+                             Picture="./img/key.png"
+                             Background="bg-slate-300" />
+
+        </SectionDescription>
+
+    </BodyDescription>
+
+</main>

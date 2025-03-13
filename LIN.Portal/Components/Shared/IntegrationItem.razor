@@ -1,0 +1,29 @@
+﻿@code{
+
+    [Parameter]
+    public string Tittle { get; set; }
+
+    [Parameter]
+    public string Description { get; set; }
+
+    [Parameter]
+    public string Picture { get; set; }
+
+    [Parameter]
+    public string Background { get; set; }
+
+}
+
+<div class="mt-8 gap-4 flex md:items-center">
+    <div class="w-12 h-12 gap-4 @Background flex items-center justify-center rounded-full dark:@Background/50">
+        <img src="@Picture" class="h-6 w-6" />
+    </div>
+    <div class="w-5/6">
+        <h3 class="text-gray-700 text-lg font-semibold dark:text-gray-300">
+            @Tittle
+        </h3>
+        <p class="text-gray-500 dark:text-gray-400">
+            @Description
+        </p>
+    </div>
+</div>

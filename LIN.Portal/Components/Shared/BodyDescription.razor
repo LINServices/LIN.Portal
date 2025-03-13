@@ -1,0 +1,12 @@
+﻿@code{
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+}
+
+<div class="px-6 mt-10 mx-auto flex max-w-7xl justify-center">
+    <div class="text-gray-600 dark:text-gray-400 md:w-2/3 lg:w-4/6">
+        @ChildContent
+    </div>
+</div>

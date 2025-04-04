@@ -1,31 +1,31 @@
 ﻿@page "/about/Mail"
 
 
-<Navbar Solutions="true" Color="blue" />
+<Navbar Solutions="true" Classes="bg-blue-500/20 text-blue-700" />
 
 
 <main class="mb-40">
     <div class="relative" id="home">
-        <div aria-hidden="true" class="inset-0 -space-x-52 absolute grid grid-cols-2 opacity-40">
-            <div class="h-56 from-blue-500 to-sky-400 bg-gradient-to-br blur-[106px]"></div>
-            <div class="h-32 from-sky-400 to-sky-700 bg-gradient-to-r blur-[106px]"></div>
+        <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40">
+            <div class="bg-gradient-to-br h-56 from-blue-500 to-sky-400 blur-[106px]"></div>
+            <div class="bg-gradient-to-r h-32 from-sky-400 to-sky-700 blur-[106px]"></div>
         </div>
-        <div class="px-6 mx-auto max-w-7xl md:px-12 xl:px-6">
-            <div class="pt-36 relative ml-auto">
+        <div class="mx-auto max-w-7xl px-6 md:px-12 xl:px-6">
+            <div class="relative ml-auto pt-36">
                 <div class="mx-auto flex flex-col items-center justify-center text-center lg:w-2/3">
 
                     <img src="./img/mail.png" class="h-20 w-20" />
-                    <h1 class="text-gray-900 mt-2 text-5xl font-bold md:text-6xl xl:text-7xl">
+                    <h1 class="mt-2 text-5xl font-bold text-gray-900 md:text-6xl xl:text-7xl">
                        LIN <span class="text-blue-500">Mail</span>.
                     </h1>
                     <p class="mt-8 text-gray-700">
                         Tu correo, más inteligente que nunca.
                     </p>
 
-                    <div class="mt-2 gap-2 mb-5 flex items-center justify-center">
+                    <div class="mt-2 mb-5 flex items-center justify-center gap-2">
                       
-                        <button class="px-5 p-1 border-slate-500 w-44 mt-4 group flex items-center justify-center rounded-full border-2 text-sm hover:bg-slate-500 hover:text-white">
-                            <svg class="h-4 w-4 fill-slate-500 mr-2 group-hover:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"></path></svg>
+                        <button class="group border-2 mt-4 flex w-44 items-center justify-center rounded-full border-slate-500 p-1 px-5 text-sm hover:bg-slate-500 hover:text-white">
+                            <svg class="mr-2 h-4 w-4 fill-slate-500 group-hover:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"></path></svg>
 
                             Web
                         </button>
@@ -37,24 +37,24 @@
         </div>
     </div>
 
-    <div class="px-6 mt-10 mx-auto flex max-w-7xl justify-center">
+    <div class="mx-auto mt-10 flex max-w-7xl justify-center px-6">
 
         <div class="md:w-2/3 lg:w-4/6">
 
-            <p class="text-gray-600 text-justify text-lg">
+            <p class="text-justify text-lg text-gray-600">
                 Mail es la solución moderna para gestionar tus correos de manera eficiente. Envía, programa y recibe correos con facilidad mientras aprovechas la inteligencia artificial para resumir mensajes largos y mantener tu bandeja de entrada organizada. Disponible para web, Android y Windows, Mail está diseñado para adaptarse a tu ritmo de vida.
             </p>
 
 
-            <div class="mt-7 gap-3 mx-auto grid max-w-2xl grid-cols-1 lg:max-w-none lg:grid-cols-2">
+            <div class="mx-auto mt-7 grid max-w-2xl grid-cols-1 gap-3 lg:max-w-none lg:grid-cols-2">
 
-                <div class="p-3 border-gray-200 flex w-full flex-col rounded-lg border-2">
-                    <label class="text-sky-600 font-bold">Inteligente</label>
+                <div class="border-2 flex w-full flex-col rounded-lg border-gray-200 p-3">
+                    <label class="font-bold text-sky-600">Inteligente</label>
                     <label class="text-sm">Convierte mensajes largos en resúmenes claros, nuestra IA te ayuda a enfocarte en lo que realmente importa.</label>
                 </div>
 
-                <div class="p-3 border-gray-200 flex w-full flex-col rounded-lg border-2">
-                    <label class="text-sky-600 font-bold">Envío rápido y seguro</label>
+                <div class="border-2 flex w-full flex-col rounded-lg border-gray-200 p-3">
+                    <label class="font-bold text-sky-600">Envío rápido y seguro</label>
                     <label class="text-sm">Diseño intuitivo y encriptación avanzada para proteger tu información.</label>
                 </div>
 
@@ -62,8 +62,8 @@
             </div>
 
 
-            <div class="mb-4 -space-x-4 mt-10 flex">
-                <div class="border-gray-800 p-4 flex w-full items-center justify-center rounded border-2 border-dashed">
+            <div class="mt-10 mb-4 flex -space-x-4">
+                <div class="border-2 flex w-full items-center justify-center rounded border-dashed border-gray-800 p-4">
                     <label class="text-gray-700">Este producto no esta disponible para organizaciones.</label>
                 </div>
             </div>

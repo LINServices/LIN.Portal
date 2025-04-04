@@ -3,18 +3,14 @@
     [Parameter]
     public string Nombre { get; set; }
 
-
     [Parameter]
     public string Content { get; set; }
-
 
     [Parameter]
     public string GoTo { get; set; } = "/";
 
-
     [Parameter]
     public string Picture { get; set; }
-
 
     [Parameter]
     public string ColorBadge { get; set; } = "gray";
@@ -25,7 +21,6 @@
     [Parameter]
     public bool Badge { get; set; } = false;
 
-
 }
 
 <a href="@GoTo">
@@ -35,11 +30,11 @@
 
             <div>
                 <img src="@Picture" class="w-12" width="512"
-                     height="512" alt="burger illustration">
+                     height="512" alt="Icono de aplicación">
 
                 @if (Badge)
                 {
-                    <a class="bg-@ColorBadge-100 text-@ColorBadge-800 border-@ColorBadge-400 mr-2 mt-2 px-2.5 py-0.5 inline-flex items-center justify-center rounded border text-xs font-semibold hover:bg-@ColorBadge-200 dark:bg-@ColorBadge-100/40">@TextBadge</a>
+                    <div class="bg-@ColorBadge-100 text-@ColorBadge-800 border-@ColorBadge-400 mr-2 mt-2 px-2.5 py-0.5 inline-flex items-center justify-center rounded border text-xs font-semibold hover:bg-@ColorBadge-200 dark:bg-@ColorBadge-100/40">@TextBadge</div>
                 }
 
             </div>
@@ -52,7 +47,7 @@
                     @Content
                 </p>
             </div>
-            <a class="flex items-center justify-between group-hover:text-secondary">
+            <div class="flex items-center justify-between group-hover:text-secondary">
                 <span class="text-sm dark:text-zinc-200">Ver mas información.</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                      class="-translate-x-4 h-5 w-5 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
@@ -60,7 +55,7 @@
                           d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
                           clip-rule="evenodd"></path>
                 </svg>
-            </a>
+            </div>
         </div>
     </div>
 

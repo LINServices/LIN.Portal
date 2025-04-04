@@ -1,19 +1,19 @@
 ﻿@page "/premium"
 
-<Navbar Premium="true" Color="sky" />
+<Navbar Premium="true" Classes="bg-sky-500/20 text-sky-700" />
 
 
 <main class="mb-40 space-y-40">
 
     <div class="relative" id="home">
-        <div aria-hidden="true" class="inset-0 -space-x-52 absolute grid grid-cols-2 opacity-40">
-            <div class="h-56 from-blue-500 to-sky-400 bg-gradient-to-br blur-[106px]"></div>
-            <div class="h-32 from-indigo-400 to-sky-600 bg-gradient-to-r blur-[106px]"></div>
+        <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40">
+            <div class="bg-gradient-to-br h-56 from-blue-500 to-sky-400 blur-[106px]"></div>
+            <div class="bg-gradient-to-r h-32 from-indigo-400 to-sky-600 blur-[106px]"></div>
         </div>
-        <div class="px-6 mx-auto max-w-7xl md:px-12 xl:px-6">
-            <div class="pt-36 relative ml-auto">
+        <div class="mx-auto max-w-7xl px-6 md:px-12 xl:px-6">
+            <div class="relative ml-auto pt-36">
                 <div class="mx-auto text-center lg:w-2/3">
-                    <h1 class="text-gray-900 text-5xl font-bold dark:text-zinc-400 md:text-6xl xl:text-7xl">
+                    <h1 class="text-5xl font-bold text-gray-900 md:text-6xl xl:text-7xl dark:text-zinc-400">
                         Suscripción <span class="text-sky-500">LIN+</span>.
                     </h1>
                     <p class="mt-8 text-gray-700">
@@ -25,129 +25,129 @@
     </div>
 
     <div id="features">
-        <div class="gap-10 px-6 mx-auto max-w-7xl justify-center md:px-12 xl:px-6">
+        <div class="mx-auto max-w-7xl justify-center gap-10 px-6 md:px-12 xl:px-6">
             <section class="">
-                <div class="px-4 py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-                    <div class="mb-8 mx-auto max-w-screen-md text-center lg:mb-12">
-                        <h2 class="mb-4 text-gray-900 text-4xl font-extrabold tracking-tight dark:text-white">Diseñado para personas</h2>
-                        <p class="mb-5 text-gray-500 font-light dark:text-gray-400 sm:text-xl">Ya sea para organizar tus actividades, gestionar tus productos o mejorar tu bienestar, nuestros planes personales te brindan herramientas inteligentes para optimizar tu día a día.</p>
+                <div class="mx-auto max-w-screen-xl px-4 py-8 lg:py-16 lg:px-6">
+                    <div class="mx-auto mb-8 max-w-screen-md text-center lg:mb-12">
+                        <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Diseñado para personas</h2>
+                        <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Ya sea para organizar tus actividades, gestionar tus productos o mejorar tu bienestar, nuestros planes personales te brindan herramientas inteligentes para optimizar tu día a día.</p>
                     </div>
                     <div class="space-y-8 sm:gap-6 lg:grid lg:grid-cols-3 lg:space-y-0 xl:gap-10">
                         <!-- Pricing Card -->
-                        <div class="border-gray-100 bg-white p-6 text-gray-900 mx-auto flex max-w-lg flex-col rounded-lg border text-center shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white xl:p-8">
+                        <div class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-white p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
                             <h3 class="mb-4 text-2xl font-semibold">Personal</h3>
-                            <p class="text-gray-500 font-light dark:text-gray-400 sm:text-lg">Ideal para usuarios del dia a dia con ventajas de inteligencia artificial.</p>
+                            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Ideal para usuarios del dia a dia con ventajas de inteligencia artificial.</p>
                             <div class="my-8 flex items-baseline justify-center">
                                 <span class="mr-2 text-5xl font-extrabold">$7.000</span>
                                 <span class="text-gray-500 dark:text-gray-400">/mes</span>
                             </div>
                             <!-- List -->
                             <ul role="list" class="mb-8 space-y-4 text-left">
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Emma Assistant Pro</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>LIN Cloud</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>3 Inventarios con 20 productos</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>LIN Health & Fitness</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Soporte premium: <span class="font-semibold">24/7</span></span>
                                 </li>
                             </ul>
-                            <a href="#" class="bg-sky-600 px-5 py-2.5 text-white rounded-lg text-center text-sm font-medium hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
+                            <a href="#" class="rounded-lg bg-sky-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
                         </div>
 
                         <!-- Pricing Card -->
-                        <div class="border-gray-100 bg-white p-6 text-gray-900 mx-auto flex max-w-lg flex-col rounded-lg border text-center shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white xl:p-8">
+                        <div class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-white p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
                             <h3 class="mb-4 text-2xl font-semibold">Familiar</h3>
-                            <p class="text-gray-500 font-light dark:text-gray-400 sm:text-lg">Comparte las características avanzadas con tu familia.</p>
+                            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Comparte las características avanzadas con tu familia.</p>
                             <div class="my-8 flex items-baseline justify-center">
                                 <span class="mr-2 text-5xl font-extrabold">$30.000</span>
                                 <span class="text-gray-500 dark:text-gray-400">/mes</span>
                             </div>
                             <!-- List -->
                             <ul role="list" class="mb-8 space-y-4 text-left">
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Emma Assistant Pro</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>LIN Cloud familiar</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>LIN Health familiar</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>5 Integrantes</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Soporte premium: <span class="font-semibold">24/7</span></span>
                                 </li>
                             </ul>
-                            <a href="#" class="bg-sky-600 px-5 py-2.5 text-white rounded-lg text-center text-sm font-medium hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
+                            <a href="#" class="rounded-lg bg-sky-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
                         </div>
 
                         <!-- Pricing Card -->
-                        <div class="border-gray-100 bg-white p-6 text-gray-900 mx-auto flex max-w-lg flex-col rounded-lg border text-center shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white xl:p-8">
+                        <div class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-white p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
                             <h3 class="mb-4 text-2xl font-semibold">Vendedor</h3>
-                            <p class="text-gray-500 font-light dark:text-gray-400 sm:text-lg">Ideal para vendedores y usuarios de Inventario.</p>
+                            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Ideal para vendedores y usuarios de Inventario.</p>
                             <div class="my-8 flex items-baseline justify-center">
                                 <span class="mr-2 text-5xl font-extrabold">$14.000</span>
                                 <span class="text-gray-500 dark:text-gray-400">/mes</span>
                             </div>
                             <!-- List -->
                             <ul role="list" class="mb-8 space-y-4 text-left">
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Emma Assistant Pro</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Open Store para 1 inventario</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>2 Inventarios con 100 productos</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Alertas de stock</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Soporte premium: <span class="font-semibold">24/7</span></span>
                                 </li>
                             </ul>
-                            <a href="#" class="bg-sky-600 px-5 py-2.5 text-white rounded-lg text-center text-sm font-medium hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
+                            <a href="#" class="rounded-lg bg-sky-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
                         </div>
 
                     </div>
@@ -155,157 +155,157 @@
             </section>
 
             <section class="">
-                <div class="px-4 py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-                    <div class="mb-8 mx-auto max-w-screen-md text-center lg:mb-12">
-                        <h2 class="mb-4 text-gray-900 text-4xl font-extrabold tracking-tight dark:text-white">Diseñado para organizaciones</h2>
-                        <p class="mb-5 text-gray-500 font-light dark:text-gray-400 sm:text-xl">Desde pequeñas empresas hasta grandes corporaciones, ofrecemos herramientas avanzadas para la gestión de equipos, inventarios y procesos, ayudándote a crecer de manera segura y organizada.</p>
+                <div class="mx-auto max-w-screen-xl px-4 py-8 lg:py-16 lg:px-6">
+                    <div class="mx-auto mb-8 max-w-screen-md text-center lg:mb-12">
+                        <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Diseñado para organizaciones</h2>
+                        <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Desde pequeñas empresas hasta grandes corporaciones, ofrecemos herramientas avanzadas para la gestión de equipos, inventarios y procesos, ayudándote a crecer de manera segura y organizada.</p>
                     </div>
                     <div class="space-y-8 sm:gap-6 lg:grid lg:grid-cols-3 lg:space-y-0 xl:gap-10">
                         <!-- Pricing Card -->
-                        <div class="border-gray-100 bg-white p-6 text-gray-900 mx-auto flex max-w-lg flex-col rounded-lg border text-center shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white xl:p-8">
+                        <div class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-white p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
                             <h3 class="mb-4 text-2xl font-semibold">Básica</h3>
-                            <p class="text-gray-500 font-light dark:text-gray-400 sm:text-lg">Ideal para organizaciones pequeñas y emprendimientos.</p>
+                            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Ideal para organizaciones pequeñas y emprendimientos.</p>
                             <div class="my-8 flex items-baseline justify-center">
                                 <span class="mr-2 text-5xl font-extrabold">$50.000</span>
                                 <span class="text-gray-500 dark:text-gray-400">/mes</span>
                             </div>
                             <!-- List -->
                             <ul role="list" class="mb-8 space-y-4 text-left">
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>10 Cuentas de usuario</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>10 Grupos de Human Directory</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Políticas de acceso</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>3 Inventarios con 40 productos</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>LIN Allo para organizaciones</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Soporte premium: <span class="font-semibold">24/7</span></span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-red-500 flex-shrink-0 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"> <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" /> </svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-red-500 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"> <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" /> </svg>
                                     <span>Open Store</span>
                                 </li>
                             </ul>
-                            <a href="#" class="bg-sky-600 px-5 py-2.5 text-white rounded-lg text-center text-sm font-medium hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
+                            <a href="#" class="rounded-lg bg-sky-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
                         </div>
                        
                         <!-- Pricing Card -->
-                        <div class="border-gray-100 bg-white p-6 text-gray-900 mx-auto flex max-w-lg flex-col rounded-lg border text-center shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white xl:p-8">
+                        <div class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-white p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
                             <h3 class="mb-4 text-2xl font-semibold">Avanzada</h3>
-                            <p class="text-gray-500 font-light dark:text-gray-400 sm:text-lg">Organizaciones robustas que buscan tener todo el poder LIN.</p>
+                            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Organizaciones robustas que buscan tener todo el poder LIN.</p>
                             <div class="my-8 flex items-baseline justify-center">
                                 <span class="mr-2 text-5xl font-extrabold">$250.000</span>
                                 <span class="text-gray-500 dark:text-gray-400">/mes</span>
                             </div>
                             <!-- List -->
                             <ul role="list" class="mb-8 space-y-4 text-left">
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Cuentas ilimitadas de usuario</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Grupos ilimitados de Human Directory</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Políticas de acceso</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Inventarios y productos ilimitados</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>LIN Allo para organizaciones</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Soporte premium: <span class="font-semibold">24/7</span></span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Open Store</span>
                                 </li>
                             </ul>
-                            <a href="#" class="bg-sky-600 px-5 py-2.5 text-white rounded-lg text-center text-sm font-medium hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
+                            <a href="#" class="rounded-lg bg-sky-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
                         </div>
 
                         <!-- Pricing Card -->
-                        <div class="border-gray-100 bg-white p-6 text-gray-900 mx-auto flex max-w-lg flex-col rounded-lg border text-center shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white xl:p-8">
+                        <div class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-white p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
                             <h3 class="mb-4 text-2xl font-semibold">Profesional</h3>
-                            <p class="text-gray-500 font-light dark:text-gray-400 sm:text-lg">Relevante para organizaciones medianas que buscan estabilidad.</p>
+                            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Relevante para organizaciones medianas que buscan estabilidad.</p>
                             <div class="my-8 flex items-baseline justify-center">
                                 <span class="mr-2 text-5xl font-extrabold">$89.000</span>
                                 <span class="text-gray-500 dark:text-gray-400">/mes</span>
                             </div>
                             <!-- List -->
                             <ul role="list" class="mb-8 space-y-4 text-left">
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>50 Cuentas de usuario</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Grupos ilimitados de Human Directory</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Políticas de acceso</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>5 Inventarios con 40 productos</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>LIN Allo para organizaciones</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Soporte premium: <span class="font-semibold">24/7</span></span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-red-500 flex-shrink-0 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"> <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" /> </svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-red-500 dark:text-red-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"> <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" /> </svg>
                                     <span>Open Store</span>
                                 </li>
                             </ul>
-                            <a href="#" class="bg-sky-600 px-5 py-2.5 text-white rounded-lg text-center text-sm font-medium hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
+                            <a href="#" class="rounded-lg bg-sky-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Iniciar</a>
                         </div>
 
 
@@ -314,106 +314,106 @@
             </section>
 
             <section class="">
-                <div class="px-4 py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-                    <div class="mb-8 mx-auto max-w-screen-md text-center lg:mb-12">
-                        <h2 class="mb-4 text-gray-900 text-4xl font-extrabold tracking-tight dark:text-white">Características adicionales</h2>
-                        <p class="mb-5 text-gray-500 font-light dark:text-gray-400 sm:text-xl">
+                <div class="mx-auto max-w-screen-xl px-4 py-8 lg:py-16 lg:px-6">
+                    <div class="mx-auto mb-8 max-w-screen-md text-center lg:mb-12">
+                        <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Características adicionales</h2>
+                        <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
                             Añade servicios como tiendas en línea, email marketing y automatización inteligente para mejorar la eficiencia y expandir tus posibilidades.
                         </p>
                     </div>
                     <div class="space-y-8 sm:gap-6 lg:grid lg:grid-cols-3 lg:space-y-0 xl:gap-10">
                         <!-- Pricing Card -->
-                        <div class="border-gray-100 bg-white p-6 text-gray-900 mx-auto flex max-w-lg flex-col rounded-lg border text-center shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white xl:p-8">
+                        <div class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-white p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
                             <h3 class="mb-4 text-2xl font-semibold">Open Store</h3>
-                            <p class="text-gray-500 font-light dark:text-gray-400 sm:text-lg">Integración del inventario con la tienda en línea.</p>
+                            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Integración del inventario con la tienda en línea.</p>
                             <div class="my-8 flex items-baseline justify-center">
                                 <span class="mr-2 text-5xl font-extrabold">$10.000</span>
                                 <span class="text-gray-500 dark:text-gray-400">/mes</span>
                             </div>
                             <!-- List -->
                             <ul role="list" class="mb-8 space-y-4 text-left">
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Transacciones ilimitadas</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Conexión con 3 inventario</span>
                                 </li>
                             </ul>
 
-                            <div class="-mt-4 mb-3 bg-orange-100 p-4 flex w-full flex-col items-center justify-center rounded-xl dark:bg-orange-500/20">
+                            <div class="-mt-4 mb-3 flex w-full flex-col items-center justify-center rounded-xl bg-orange-100 p-4 dark:bg-orange-500/20">
                                 <svg class="fill-orange-400 text-orange-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                     <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5m.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
                                 </svg>
                                 <label class="mt-1 text-sm">Puedes contratar este servicio si tienes el plan <span class="font-bold">Vendedor</span>.</label>
                             </div>
 
-                            <a href="#" class="bg-sky-600 px-5 py-2.5 text-white rounded-lg text-center text-sm font-medium hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Adquirir</a>
+                            <a href="#" class="rounded-lg bg-sky-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Adquirir</a>
                         </div>
                         <!-- Pricing Card -->
-                        <div class="border-gray-100 bg-white p-6 text-gray-900 mx-auto flex max-w-lg flex-col rounded-lg border text-center shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white xl:p-8">
+                        <div class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-white p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
                             <h3 class="mb-4 text-2xl font-semibold">Emma Pro</h3>
-                            <p class="text-gray-500 font-light dark:text-gray-400 sm:text-lg">Asistente inteligente integrado en la plataforma.</p>
+                            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Asistente inteligente integrado en la plataforma.</p>
                             <div class="my-8 flex items-baseline justify-center">
                                 <span class="mr-2 text-5xl font-extrabold">$2.000</span>
                                 <span class="text-gray-500 dark:text-gray-400">/usuario al mes</span>
                             </div>
                             <!-- List -->
                             <ul role="list" class="mb-8 space-y-4 text-left">
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Aplica para cuentas de organización.</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Emma Professional</span>
                                 </li>
                             </ul>
-                            <div class="-mt-4 mb-3 bg-orange-100 p-4 flex w-full flex-col items-center justify-center rounded-xl dark:bg-orange-500/20">
+                            <div class="-mt-4 mb-3 flex w-full flex-col items-center justify-center rounded-xl bg-orange-100 p-4 dark:bg-orange-500/20">
                                 <svg class="fill-orange-400 text-orange-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                     <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5m.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
                                 </svg>
                                 <label class="mt-1 text-sm">Solo aplica para organizaciones avanzadas.</label>
                             </div>
 
-                            <a href="#" class="bg-sky-600 px-5 py-2.5 text-white rounded-lg text-center text-sm font-medium hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Adquirir</a>
+                            <a href="#" class="rounded-lg bg-sky-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Adquirir</a>
                         </div>
 
                         <!-- Pricing Card -->
-                        <div class="border-gray-100 bg-white p-6 text-gray-900 mx-auto flex max-w-lg flex-col rounded-lg border text-center shadow dark:border-gray-600 dark:bg-gray-800 dark:text-white xl:p-8">
+                        <div class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-white p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
                             <h3 class="mb-4 text-2xl font-semibold">Mailing</h3>
-                            <p class="text-gray-500 font-light dark:text-gray-400 sm:text-lg">Crear campañas de correo electrónico para clientes.</p>
+                            <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Crear campañas de correo electrónico para clientes.</p>
                             <div class="my-8 flex items-baseline justify-center">
                                 <span class="mr-2 text-5xl font-extrabold">$40.000</span>
                                 <span class="text-gray-500 dark:text-gray-400">/mes</span>
                             </div>
                             <!-- List -->
                             <ul role="list" class="mb-8 space-y-4 text-left">
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>Campañas de mailing</span>
                                 </li>
-                                <li class="space-x-3 flex items-center">
+                                <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg class="h-5 w-5 text-green-500 flex-shrink-0 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <svg class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                     <span>5000 Correos</span>
                                 </li>
                             </ul>
 
-                            <div class="-mt-4 mb-3 bg-orange-100 p-4 flex w-full flex-col items-center justify-center rounded-xl dark:bg-orange-500/20">
+                            <div class="-mt-4 mb-3 flex w-full flex-col items-center justify-center rounded-xl bg-orange-100 p-4 dark:bg-orange-500/20">
                                 <svg class="fill-orange-400 text-orange-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                     <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5m.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
                                 </svg>
                                 <label class="mt-1 text-sm">Solo aplica para planes de organizaciones e instituciones.</label>
                             </div>
 
-                            <a href="#" class="bg-sky-600 px-5 py-2.5 text-white rounded-lg text-center text-sm font-medium hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Adquirir</a>
+                            <a href="#" class="rounded-lg bg-sky-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-sky-600 focus:ring-4 focus:ring-sky-200 dark:text-white dark:focus:ring-sky-900">Adquirir</a>
                         </div>
 
 

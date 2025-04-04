@@ -1,4 +1,4 @@
-﻿@code{
+﻿@code {
 
     [Parameter]
     public string Tittle { get; set; }
@@ -14,12 +14,12 @@
 
 }
 
-<div class="mt-8 gap-4 flex md:items-center">
-    <div class="w-12 h-12 gap-4 @Background flex items-center justify-center rounded-full dark:@Background/50">
+<div class="mt-8 flex gap-4 md:items-center">
+    <div class="flex h-12 w-12 @Background items-center justify-center gap-4 rounded-full dark:@Background/50">
         <img src="@Picture" class="h-6 w-6" />
     </div>
     <div class="w-5/6">
-        <h3 class="text-gray-700 text-lg font-semibold dark:text-gray-300">
+        <h3 class="text-lg font-semibold text-gray-700 dark:text-gray-300">
             @Tittle
         </h3>
         <p class="text-gray-500 dark:text-gray-400">

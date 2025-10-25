@@ -15,9 +15,6 @@
     [Parameter]
     public string DefaultColor { get; set; }
 
-    [Parameter]
-    public string SecondColor { get; set; }
-
 
     private string GetDefaultColor(char prefix, int number)
     {
@@ -38,41 +35,15 @@
         }
         return $"{pre}-{DefaultColor}-{number}";
     }
-
-    private string GetSecondColor(char prefix, int number)
-    {
-        string pre = "";
-
-        switch (prefix)
-        {
-            case 'T': pre = "text"; break;
-            case 'O': pre = "to"; break;
-            case 'F': pre = "from"; break;
-            case 'B': pre = "bg"; break;
-        }
-
-
-        if (SecondColor.StartsWith("["))
-        {
-            return $"{pre}-{SecondColor}";
-        }
-        return $"{pre}-{SecondColor}-{number}";
-    }
-
-
 }
 
 <div class="relative">
-    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40">
-        <div class="h-56 @GetSecondColor('F', 500) @GetSecondColor('O', 400) bg-gradient-to-br blur-[106px]"></div>
-        <div class="h-32 @GetDefaultColor('F', 400) @GetDefaultColor('0', 700) bg-gradient-to-r blur-[106px]"></div>
-    </div>
     <div class="mx-auto max-w-7xl px-6 md:px-12 xl:px-6">
         <div class="relative ml-auto pt-36">
             <div class="mx-auto flex flex-col items-center justify-center text-center lg:w-2/3">
 
-                <img src="@Picture" class="h-20 w-20" />
-                <h1 class="mt-2 text-5xl font-bold text-gray-900 dark:text-zinc-200 md:text-6xl xl:text-7xl">
+                <img src="@Picture" class="h-16 w-16" />
+                <h1 class="mt-2 text-5xl font-bold text-gray-900 dark:text-zinc-200 md:text-6xl">
                     @Tittle<span class="@GetDefaultColor('T', 500)">@Application</span>.
                 </h1>
                 <p class="mt-8 text-gray-700 dark:text-zinc-400">

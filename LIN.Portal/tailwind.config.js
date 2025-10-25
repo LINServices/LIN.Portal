@@ -20,7 +20,7 @@ module.exports = {
         },
         extend: {
             colors: {
-
+                inventory: { '500': "#6e964c" },
                 light: "#F7F8FD",
                 'current': {
                     '50': '#f5f7fa',

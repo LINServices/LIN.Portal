@@ -8,8 +8,13 @@
         <div class="mx-auto max-w-7xl px-6 md:px-12 xl:px-6">
             <div class="ml-auto pt-36">
 
-                <div class="mx-auto text-center lg:w-2/3">
-                    <h1 class="text-5xl font-bold text-gray-900 dark:text-zinc-300 md:text-6xl">
+                <div class="mx-auto flex flex-col items-center justify-center text-center lg:w-2/3">
+
+                    <div class="rounded-3xl border border-zinc-300 px-3 py-2">
+                        <label class="text-base text-zinc-800">Por desarrolladores, para desarrolladores</label>
+                    </div>
+
+                    <h1 class="mt-4 text-5xl font-bold text-gray-900 dark:text-zinc-300 md:text-6xl">
                         Introduciendo la nueva generación de aplicaciones
                     </h1>
                     <p class="mt-8 text-zinc-800 dark:text-zinc-400">
@@ -60,13 +65,15 @@
             </div>
             <div class="mt-16 grid divide-x divide-y divide-gray-100 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-zinc-700 dark:divide-zinc-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
 
-                <Product Picture="./img/box.png" Nombre="Inventory" Content="Gestiona y comparte múltiples inventarios en Windows y Android, fácil y eficaz." />
 
-                <Product Picture="./img/allo.png" Nombre="LIN Allo" Content="Mensajería disponible en web, Windows y Android para enviar mensajes, crear grupos y conversaciones en cualquier momento." />
+                <Product GoTo="/about/inventory" Picture="./img/box.png" Nombre="Inventory" Content="Gestiona y comparte múltiples inventarios en Windows y Android, fácil y eficaz." />
 
-                <Product Picture="./img/contactos.png" Nombre="Contacts" Content="Tu agendador de contactos personal y profesional para mantener tus conexiones al alcance de tu mano." />
+                <Product GoTo="/about/allo" Picture="https://allo.linplatform.com/favicon.svg" Nombre="LIN Allo" Content="Mensajería disponible en web y Android para enviar mensajes, crear grupos y conversaciones en cualquier momento." />
 
-                <Product Picture="./img/apps.png" Nombre="Mas" Content="Mira los otros 20 servicios que tenemos disponibles para ti." />
+                <Product GoTo="/about/contacts" Picture="https://contacts.linplatform.com/favicon.png" Nombre="Contacts" Content="Tu agendador de contactos personal y profesional para mantener tus conexiones al alcance de tu mano." />
+
+    
+                <Product GoTo="/solutions" Picture="./img/apps.png" Nombre="Mas" Content="Mira los otros 20 servicios que tenemos disponibles para ti." />
 
             </div>
         </div>
@@ -118,12 +125,13 @@
                                 </p>
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <div class="relative mt-20 py-16">
         <div aria-hidden="true"
@@ -170,7 +178,7 @@
             </div>
         </div>
     </div>
-  
+
     <div id="blog" class="mt-20">
         <div class="mx-auto max-w-7xl px-6 md:px-12 xl:px-6">
             <div class="mb-12 space-y-2 text-center">

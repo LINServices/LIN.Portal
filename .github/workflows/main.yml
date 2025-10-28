@@ -1,0 +1,27 @@
+name: LIN Cloud Dotnet Deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cal
+        id: call-api
+        uses: tu-org/http-call@v1.0.0
+        with:
+          url: "https://api.linplatform.com/edge/api/runtimes/Dotnet/build/github"
+          method: "POST"
+          headers: |
+          Content-Type: application/json
+          Accept: application/json
+          Key: ${{ secrets.LIN_API_KEY }}
+          body: '{"test":"data"}'
+          timeout: "15"
+
+      - name: Print outputs
+        run: |
+          echo "Status code: ${{ steps.call-api.outputs.status_code }}"
+          echo "Response (truncated):"
+          echo "${{ steps.call-api.outputs.response }}"

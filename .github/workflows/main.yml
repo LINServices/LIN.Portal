@@ -7,21 +7,37 @@ jobs:
   call-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Cal
+      - name: Set up environment
+        run: echo "Starting deploy job"
+
+      - name: Call LIN API (curl)
         id: call-api
-        uses: tu-org/http-call@v1.0.0
-        with:
-          url: "https://api.linplatform.com/edge/api/runtimes/Dotnet/build/github"
-          method: "POST"
-          headers: |
-          Content-Type: application/json
-          Accept: application/json
-          Key: ${{ secrets.LIN_API_KEY }}
-          body: '{"test":"data"}'
-          timeout: "15"
+        env:
+          LIN_API_KEY: ${{ secrets.LIN_API_KEY }}
+        run: |
+          set -eo pipefail
+
+          # Request (response body + newline + status code)
+          resp_and_code=$(curl -s -w "\n%{http_code}" \
+            -X POST "https://api.linplatform.com/edge/api/runtimes/Dotnet/build/github" \
+            -H "Content-Type: application/json" \
+            -H "Accept: application/json" \
+            -H "Key: $LIN_API_KEY" \
+            -d '{"test":"data"}' \
+            --max-time 15)
+
+          # Separa cuerpo y código
+          status_code=$(printf '%s' "$resp_and_code" | tail -n1)
+          body=$(printf '%s' "$resp_and_code" | sed '$d')
+
+          # Exportar outputs para otros steps via GITHUB_OUTPUT (soporta multiline)
+          echo "status_code=$status_code" >> "$GITHUB_OUTPUT"
+          echo "response<<EOF" >> "$GITHUB_OUTPUT"
+          printf '%s\n' "$body" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
 
       - name: Print outputs
         run: |
           echo "Status code: ${{ steps.call-api.outputs.status_code }}"
-          echo "Response (truncated):"
-          echo "${{ steps.call-api.outputs.response }}"
+          echo "Response (truncated 1000 chars):"
+          printf '%s' "${{ steps.call-api.outputs.response }}" | head -c 1000

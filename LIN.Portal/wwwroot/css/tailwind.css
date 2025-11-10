@@ -876,6 +876,14 @@ video {
   margin-top: 2rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1163,6 +1171,14 @@ video {
 
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.max-w-\[90\%\] {
+  max-width: 90%;
+}
+
+.max-w-xl {
+  max-width: 36rem;
 }
 
 .flex-shrink {
@@ -1547,6 +1563,18 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-\[30\%_70\%\] {
+  grid-template-columns: 30% 70%;
+}
+
+.grid-cols-\[70\%_30\%\] {
+  grid-template-columns: 70% 30%;
+}
+
+.grid-cols-\[60\%_40\%\] {
+  grid-template-columns: 60% 40%;
 }
 
 .flex-row {
@@ -25316,6 +25344,10 @@ video {
   fill: #64748b;
 }
 
+.fill-\[\#5e7ed3\] {
+  fill: #5e7ed3;
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -48274,6 +48306,11 @@ video {
   color: rgb(9 9 11 / 0.95);
 }
 
+.text-\[\#5e7ed3\] {
+  --tw-text-opacity: 1;
+  color: rgb(94 126 211 / var(--tw-text-opacity, 1));
+}
+
 .text-opacity-0 {
   --tw-text-opacity: 0;
 }
@@ -49237,6 +49274,24 @@ div[onmouseover="S_ssac();"][onmouseout="D_ssac();"] {
   }
 }
 
+@media (min-width: 910px) {
+  .dl\:grid-cols-\[60\%_40\%\] {
+    grid-template-columns: 60% 40%;
+  }
+
+  .dl\:grid-cols-\[30\%_70\%\] {
+    grid-template-columns: 30% 70%;
+  }
+
+  .dl\:items-end {
+    align-items: flex-end;
+  }
+
+  .dl\:text-end {
+    text-align: end;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:visible {
     visibility: visible;
@@ -49323,8 +49378,20 @@ div[onmouseover="S_ssac();"][onmouseout="D_ssac();"] {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-\[30\%_70\%\] {
+    grid-template-columns: 30% 70%;
+  }
+
+  .lg\:grid-cols-\[60\%_40\%\] {
+    grid-template-columns: 60% 40%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:items-end {
+    align-items: flex-end;
   }
 
   .lg\:items-center {
@@ -49383,6 +49450,10 @@ div[onmouseover="S_ssac();"][onmouseout="D_ssac();"] {
 
   .lg\:pt-0 {
     padding-top: 0px;
+  }
+
+  .lg\:text-end {
+    text-align: end;
   }
 
   .lg\:text-sm {
